@@ -11,9 +11,20 @@
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
             <intent-filter>
+                <!--  -->
                 <action android:name="android.intent.action.MAIN" />
 
+                <!-- 在桌面上创建图标，并直接进入此Activity-->
                 <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity2"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="action.nextActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
     </application>
