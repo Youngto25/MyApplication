@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity4"></activity>
         <activity android:name=".MainActivity3">
             <intent-filter>
 
@@ -20,14 +21,17 @@
             </intent-filter>
         </activity>
         <activity android:name=".MainActivity">
-<!--            <intent-filter>-->
 
-<!--                &lt;!&ndash;  &ndash;&gt;-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
+            <!-- <intent-filter> -->
 
-<!--                &lt;!&ndash; 在桌面上创建图标，并直接进入此Activity &ndash;&gt;-->
-<!--                <category android:name="android.intent.category.DEFAULT" />-->
-<!--            </intent-filter>-->
+
+            <!-- &lt;!&ndash;  &ndash;&gt; -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- &lt;!&ndash; 在桌面上创建图标，并直接进入此Activity &ndash;&gt; -->
+            <!-- <category android:name="android.intent.category.DEFAULT" /> -->
+            <!-- </intent-filter> -->
         </activity>
         <activity
             android:name=".MainActivity2"
