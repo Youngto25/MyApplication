@@ -9,8 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity4"></activity>
-        <activity android:name=".MainActivity3">
+        <activity android:name=".Fragment_1">
             <intent-filter>
 
                 <!--  -->
@@ -19,6 +18,10 @@
                 <!-- 在桌面上创建图标，并直接进入此Activity -->
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity4" />
+        <activity android:name=".MainActivity3">
+
         </activity>
         <activity android:name=".MainActivity">
 

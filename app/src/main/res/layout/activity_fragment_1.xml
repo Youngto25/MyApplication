@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragment_1">
+    <fragment
+        android:id="@+id/fragment_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:name="com.example.myapplication.FirstFragment"
+        ></fragment>
+<!--    <fragment-->
+<!--        android:id="@+id/fragment_2"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:name="com.example.myapplication.SecondFragment"></fragment>-->
+    <TextView
+        android:id="@+id/firstText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="第一行文字"
+        ></TextView>
+    <Button
+        android:id="@+id/changeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="click me"
+        android:onClick="changeTheText"
+        ></Button>
+    <Button
+        android:id="@+id/changeButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="click me"
+        ></Button>
+
+    <ImageView
+        android:id="@+id/view_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher_foreground"
+        ></ImageView>
+
+    <HorizontalScrollView
+        android:id="@+id/imageList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+    </HorizontalScrollView>
+</LinearLayout>
