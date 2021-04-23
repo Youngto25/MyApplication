@@ -39,4 +39,7 @@ dependencies {
     implementation "androidx.lifecycle:lifecycle-runtime:$lifecycle_version"
     annotationProcessor "androidx.lifecycle:lifecycle-compiler:$lifecycle_version"
 
+    implementation 'androidx.annotation:annotation:1.0.0'
+    implementation 'com.facebook.android:audience-network-sdk:6.+'
+
 }
