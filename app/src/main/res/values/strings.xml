@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">杨涛</string>
+    <string name="app_name">We Play</string>
     <string name="home_button">click me</string>
     <string name="title_activity_main2">MainActivity</string>
     <!-- Strings used for fragments for navigation -->
